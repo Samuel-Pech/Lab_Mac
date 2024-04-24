@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+  max-height: 500px; /* Ajusta la altura máxima de la tabla */
+}
+
+.Table:hover {
+  box-shadow: 0 12px 24px rgba(0,0,0,0.18);
+}
+
+.Table th, .Table td {
+  padding: 15px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.Table th {
+  background-color: #0056b3;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.Table td {
+  color: #333333;
+  font-size: 15px;
+}
+
+button {
+  margin: 0 5px 5px 0;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  margin: 0;
+  color: #0056b3;
+  font-size: 2.8rem;
+}
+
+.header h2 {
+  margin-top: 10px;
+  color: #666;
+  font-size: 1.2rem;
+}

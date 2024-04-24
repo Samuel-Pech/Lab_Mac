@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALA MAC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="logicaPc.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/interactjs@1.10.11/dist/interact.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">SALA MAC</div>
+    
+    <!-- Contadores -->
+    <div class="counter-container">
+        <div class="counter">
+         <span id="totalPcs">0</span>
+        </div>
+        <div class="counter">
+         <span id="disponibles">0</span>
+        </div>
+        <div class="counter">
+         <span id="noDisponibles">0</span>
+        </div>
+        <div class="counter">
+         <span id="fueraDeServicio">0</span>
+        </div>
+    </div>
+    <div id="container"></div>
+    <div id="info" class="info"></div>
+
+    <!-- Contenedor para las mesas -->
+    <div id="mesas-container"></div>
+</body>
+</html>

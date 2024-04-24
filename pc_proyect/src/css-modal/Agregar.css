@@ -1,0 +1,82 @@
+/* Estilos para el modal */
+.AddModal {
+  display: none;
+  position: fixed;
+  z-index: 1050;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+}
+
+.AddModal.open {
+  display: flex;
+}
+
+/* Estilos para el contenido del modal */
+.AddModal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  max-width: 600px;
+}
+
+/* El botón de cerrar (x) */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #606060;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.close:hover {
+  background: #ff5f57;
+}
+
+/* Estilos para el formulario dentro del modal */
+.AddModal-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddModal-content form label {
+  margin-bottom: 8px;
+}
+
+.AddModal-content form input,
+.AddModal-content form select {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.AddModal-content form button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.AddModal-content form button:hover {
+  background-color: #0056b3;
+}

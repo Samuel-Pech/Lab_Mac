@@ -1,0 +1,69 @@
+.deletePc-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deletePc-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px; 
+  width: 50%;
+  max-width: 450px; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease-out; 
+}
+
+
+.deletePc-header h2 {
+  margin: 0;
+  color: #333; 
+  font-size: 24px; 
+}
+
+.deletePc-body {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+.deletePc-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px; 
+}
+
+.deletePc-confirm {
+  background-color: #dc3545; 
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s; 
+}
+
+.deletePc-confirm:hover {
+  background-color: #c82333; 
+}
+
+.deletePc-cancel {
+  background-color: #6c757d; 
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 5px; 
+  transition: background-color 0.2s; 
+}
+
+.deletePc-cancel:hover {
+  background-color: #5a6268;
+}
